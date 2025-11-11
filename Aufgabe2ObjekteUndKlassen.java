@@ -18,6 +18,9 @@ System.out.println("Wie ist ihr Name ?");
 
 System.out.println("While Schleife");
 
+
+
+
 int i = 0;
 while (i < 3 ){
     System.out.println("Herzlich Willkommen: " + Name);
@@ -34,9 +37,10 @@ for (int p = 0; p < 3; p++) {
 
 if (Name.isEmpty()) {
     System.out.println("Bitte geben sie ihren Namen an");
-}
-else {  
-    System.out.println("Herzlich Willkommen: " + Name);
+} else {
+    for (int p = 0; p < 3; p++) {
+        System.out.println("Herzlich Willkommen: " + Name);
+    }
 }
 
 
@@ -45,13 +49,13 @@ else {
  }
 
     public class Person{
-// +--------------------------------------+
-// |                Person                |
-// +--------------------------------------+
-// | - Name: String                       |
-// | - Alter: int                         |
-// | - Adresse: String                    |
-// +--------------------------------------+
+
+        // Person
+
+        // Name = String 
+        //Alter = nt 
+        // Adresse = String  
+
     }
 
 
